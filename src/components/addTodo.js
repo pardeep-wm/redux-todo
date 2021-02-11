@@ -64,12 +64,12 @@ class AddTodo extends React.Component {
       <Button variant="text" mini='true' onClick={this.handleClickOpen}>
         <AddCircleOutlineIcon  style={{color: 'white'}}/>
       </Button>
-      <Dialog open={this.state.open} onClose={this.handleClose} aria-labelledby="form-dialog-title">
+      <Dialog open={this.state.open} onClose={this.handleClose} aria-labelledby="form-dialog-title" maxWidth={"xs"} fullWidth={true}>
         <DialogTitle id="form-dialog-title">New Task</DialogTitle>
         <DialogContent>
             <form onSubmit={this.onFormSubmit}>
-                <TextField required placeholder="Add new task" value={this.state.term} onChange={(e) => this.setState({term: e.target.value})} /><br/>
-                <ChipInput placeholder="tags" value={this.state.chips} onAdd={(chip)=> this.ohAddNewChip(chip)} onDelete={(chip, index) => this.handleDeleteChip(chip, index)}/><br />
+                <TextField required placeholder="Add new task" value={this.state.term} onChange={(e) => this.setState({term: e.target.value})} fullWidth={true} /><br/>
+                <ChipInput placeholder="tags" value={this.state.chips} onAdd={(chip)=> this.ohAddNewChip(chip)} onDelete={(chip, index) => this.handleDeleteChip(chip, index)} fullWidth={true}/><br />
                 {/* <Button variant="contained" color="primary" type="submit" style={{'marginTop':'10px'}} >Create Task</Button> */}
             </form>
         </DialogContent>

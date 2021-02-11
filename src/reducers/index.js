@@ -8,16 +8,9 @@ const todoReducer = (state=[], action) => {
             return [action.payload, ...state]
         case 'UPDATE_TODO':
             let arr = [...state]
-            let result = arr.filter((todo) => {
-                if (todo.todo_item.id.$oid === action.payload.todo_item.id.$oid){
-                    todo.todo_item.status = action.payload.todo_item.status
-                    todo.todo_item.name = action.payload.todo_item.name
-                    todo.todo_item.tags = action.payload.todo_item.tags
-                    return todo;
-                }
-                return todo;
-            })
-            return result;
+            let itemIndex = arr.findIndex(elm => elm.todo_item.id.$oid == action.payload.todo_item.id.$oid);
+            arr[itemIndex] = action.payload
+            return arr;
         case 'MARK_UNMARK_DELETE':
             let newArr = state.filter(todo => {
                 if (todo.todo_item.id.$oid === action.payload.todo_item.id.$oid){
