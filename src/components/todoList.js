@@ -50,7 +50,7 @@ class TodoList extends React.Component {
     }
     render() {
         return (
-            <div>
+            <div className="">
                 <NavBar ref={this.navRef}/>
                 <Fragment>
                     <Grid container spacing={0}>

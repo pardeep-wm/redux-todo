@@ -2,7 +2,7 @@ import todoApi from '../apis/todoApi';
 
 export const fetchTodo = () => async dispatch => {
     const response = await todoApi.get('/todo_items.json?page=1');
-    
+    debugger
     dispatch({ type: 'LIST_TODO', payload: response.data });
 };
 

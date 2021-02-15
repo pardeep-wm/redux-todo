@@ -6,10 +6,8 @@ import thunk from 'redux-thunk';
 
 
 import reducers from './reducers'
-import TodoList from './components/todoList'
-const App = () => {
-    return <div className="ui container"><TodoList /></div>
-};
+import App from './components/app';
+
 
 const store = createStore(reducers, applyMiddleware(thunk));
 ReactDom.render(
