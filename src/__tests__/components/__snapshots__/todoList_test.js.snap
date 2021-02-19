@@ -1,0 +1,632 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoList should render with given state from Redux store 1`] = `
+<div
+  className=""
+>
+  <div>
+    <header
+      className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation4"
+    >
+      <div
+        className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+      >
+        <span
+          className="MuiTypography-root MuiTypography-colorInherit"
+          style={
+            Object {
+              "flex": 1,
+            }
+          }
+        >
+          React Redux Todo App
+        </span>
+        <div>
+          <button
+            className="MuiButtonBase-root MuiButton-root MuiButton-text"
+            disabled={false}
+            mini="true"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            tabIndex={0}
+            type="button"
+          >
+            <span
+              className="MuiButton-label"
+            >
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root"
+                focusable="false"
+                style={
+                  Object {
+                    "color": "white",
+                  }
+                }
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M13 7h-2v4H7v2h4v4h2v-4h4v-2h-4V7zm-1-5C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+                />
+              </svg>
+            </span>
+          </button>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div
+    className="MuiGrid-root MuiGrid-container"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+        style={
+          Object {
+            "margin": "auto",
+            "padding": 20,
+            "textAlign": "center",
+            "width": 500,
+          }
+        }
+      >
+        <p>
+          You have 
+          3
+           items in list
+        </p>
+        <div
+          className="MuiFormControl-root WAMuiChipInput-root-1"
+          onClick={[Function]}
+        >
+          <div
+            className="WAMuiChipInput-standard-6 WAMuiChipInput-chipContainer-4 WAMuiChipInput-underline-14"
+          >
+            <div
+              className="MuiInputBase-root MuiInput-root WAMuiChipInput-inputRoot-2 WAMuiChipInput-standard-6 MuiInputBase-formControl MuiInput-formControl"
+              onClick={[Function]}
+              onKeyPress={[Function]}
+            >
+              <input
+                aria-invalid={false}
+                className="MuiInputBase-input MuiInput-input WAMuiChipInput-input-3 WAMuiChipInput-standard-6"
+                disabled={false}
+                onAnimationStart={[Function]}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onKeyUp={[Function]}
+                placeholder="Filter By Tags"
+                required={false}
+                type="text"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+        style={
+          Object {
+            "margin": "auto",
+            "padding": 20,
+            "textAlign": "center",
+            "width": 500,
+          }
+        }
+      >
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "padding": 20,
+            }
+          }
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            All
+          </span>
+        </button>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "padding": 20,
+            }
+          }
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Active
+          </span>
+        </button>
+        <button
+          className="MuiButtonBase-root MuiButton-root MuiButton-text"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          style={
+            Object {
+              "padding": 20,
+            }
+          }
+          tabIndex={0}
+          type="button"
+        >
+          <span
+            className="MuiButton-label"
+          >
+            Deleted
+          </span>
+        </button>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12"
+      pt={10}
+      style={
+        Object {
+          "margin": "auto",
+          "padding": 20,
+          "textAlign": "center",
+          "width": 500,
+        }
+      }
+    >
+      <div
+        className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+        style={
+          Object {
+            "margin": "auto",
+            "padding": 20,
+            "textAlign": "center",
+            "width": 500,
+          }
+        }
+      >
+        <ul
+          className="MuiList-root MuiList-padding"
+        >
+          <div
+            className="MuiListItemText-root"
+            style={
+              Object {
+                "textDecoration": "",
+              }
+            }
+          >
+            <span
+              className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+            >
+              Test
+            </span>
+          </div>
+          <div
+            className="MuiBox-root MuiBox-root-18"
+          >
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+              disabled={false}
+              id="deleteButton"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                Active
+              </span>
+            </button>
+            <div
+              className="MuiInputBase-root MuiInput-root MuiInput-underline"
+              onClick={[Function]}
+            >
+              <div
+                aria-haspopup="listbox"
+                aria-labelledby="statustag"
+                className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                id="statustag"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Start
+              </div>
+              <input
+                aria-hidden={true}
+                className="MuiSelect-nativeInput"
+                onAnimationStart={[Function]}
+                onChange={[Function]}
+                tabIndex={-1}
+                value="start"
+              />
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSelect-icon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </ul>
+        <hr
+          className="MuiDivider-root"
+        />
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+        style={
+          Object {
+            "margin": "auto",
+            "padding": 20,
+            "textAlign": "center",
+            "width": 500,
+          }
+        }
+      >
+        <ul
+          className="MuiList-root MuiList-padding"
+        >
+          <div
+            className="MuiListItemText-root"
+            style={
+              Object {
+                "textDecoration": "",
+              }
+            }
+          >
+            <span
+              className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+            >
+              Test 1
+            </span>
+          </div>
+          <div
+            className="MuiBox-root MuiBox-root-19"
+          >
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+              disabled={false}
+              id="deleteButton"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                Active
+              </span>
+            </button>
+            <div
+              className="MuiInputBase-root MuiInput-root MuiInput-underline"
+              onClick={[Function]}
+            >
+              <div
+                aria-haspopup="listbox"
+                aria-labelledby="statustag"
+                className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                id="statustag"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Start
+              </div>
+              <input
+                aria-hidden={true}
+                className="MuiSelect-nativeInput"
+                onAnimationStart={[Function]}
+                onChange={[Function]}
+                tabIndex={-1}
+                value="start"
+              />
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSelect-icon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </ul>
+        <hr
+          className="MuiDivider-root"
+        />
+      </div>
+      <div
+        className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+        style={
+          Object {
+            "margin": "auto",
+            "padding": 20,
+            "textAlign": "center",
+            "width": 500,
+          }
+        }
+      >
+        <ul
+          className="MuiList-root MuiList-padding"
+        >
+          <div
+            className="MuiListItemText-root"
+            style={
+              Object {
+                "textDecoration": "",
+              }
+            }
+          >
+            <span
+              className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+            >
+              Test 2
+            </span>
+          </div>
+          <div
+            className="MuiBox-root MuiBox-root-20"
+          >
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+              disabled={false}
+              id="deleteButton"
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                Active
+              </span>
+            </button>
+            <div
+              className="MuiInputBase-root MuiInput-root MuiInput-underline"
+              onClick={[Function]}
+            >
+              <div
+                aria-haspopup="listbox"
+                aria-labelledby="statustag"
+                className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+                id="statustag"
+                onBlur={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseDown={[Function]}
+                role="button"
+                tabIndex={0}
+              >
+                Start
+              </div>
+              <input
+                aria-hidden={true}
+                className="MuiSelect-nativeInput"
+                onAnimationStart={[Function]}
+                onChange={[Function]}
+                tabIndex={-1}
+                value="start"
+              />
+              <svg
+                aria-hidden={true}
+                className="MuiSvgIcon-root MuiSelect-icon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M7 10l5 5 5-5z"
+                />
+              </svg>
+            </div>
+            <button
+              className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+              disabled={false}
+              onBlur={[Function]}
+              onClick={[Function]}
+              onDragLeave={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyUp={[Function]}
+              onMouseDown={[Function]}
+              onMouseLeave={[Function]}
+              onMouseUp={[Function]}
+              onTouchEnd={[Function]}
+              onTouchMove={[Function]}
+              onTouchStart={[Function]}
+              tabIndex={0}
+              type="button"
+            >
+              <span
+                className="MuiButton-label"
+              >
+                <svg
+                  aria-hidden={true}
+                  className="MuiSvgIcon-root"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+                  />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </ul>
+        <hr
+          className="MuiDivider-root"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

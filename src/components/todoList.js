@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { Grid, Paper } from '@material-ui/core'
 import ChipInput from 'material-ui-chip-input';
 import NavBar from './navBar';
-import { fetchTodo, filterTodo } from '../actions';
+import { fetchTodo, filterTodo, loadTodos } from '../actions';
 import TodoItem from './todoItem';
 import VisibilityFilters from './visibilityFilters';
 
@@ -25,7 +25,7 @@ class TodoList extends React.Component {
     }
     
     componentDidMount(){
-        this.props.fetchTodo()
+        this.props.loadTodos()
     }
 
     handleInput= (chip) => {
@@ -75,4 +75,4 @@ const mapStateToProps = state => {
     return { todos: state.todos, filteredTags: state.filterTags }
 }
 
-export default connect(mapStateToProps, { fetchTodo, filterTodo })( TodoList);
+export default connect(mapStateToProps, { fetchTodo, filterTodo, loadTodos })( TodoList);
