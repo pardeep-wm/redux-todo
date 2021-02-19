@@ -55,17 +55,18 @@ class TodoItem extends React.Component {
     this.props.onhandleEdit(todo);
   }
   renderedList = () => {
-    const { todo } = this.props;
+    if (this.props.todo){
+      const { todo } = this.props;
       return <Paper key={todo.id.$oid} style={styles.Paper}> 
           <List >
               <ListItemText style={{'textDecoration': todo.is_deleted ? 'line-through' : ''}} primary={todo.name}/>
               {this.renderTags(todo.tags)}
               <Box component="div" display="block">
                   <Button color={todo.is_deleted ? 'secondary' : 'primary'}
-                      onClick={()=> this.deleteUndeleteTodo(todo)}>
-                      {todo.is_deleted ? 'Deleted' : 'Active'}
+                      onClick={()=> this.deleteUndeleteTodo(todo)} id="deleteButton">
+                      {todo.is_deleted ? 'Deleted' : 'Active'} 
                   </Button>
-                  <Select value={todo.status}
+                  <Select value={todo.status} id="statustag"
                       onChange={(event)=> this.onhandleChange(event, todo)}>
                       <MenuItem value='start'>Start</MenuItem>
                       <MenuItem value='finish'>Finished</MenuItem>
@@ -78,6 +79,10 @@ class TodoItem extends React.Component {
           </List>
           <Divider/>
       </Paper>
+    } else {
+      
+    }
+    
   }
 
     render () {

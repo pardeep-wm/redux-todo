@@ -1,8 +1,19 @@
 import todoApi from '../apis/todoApi';
+import axios from 'axios'
+
+export function loadTodos(){
+    return function(dispatch){
+        return axios.get('http://localhost:3001/api/todo_items.json?page=1')
+            .then((response) => {
+                dispatch({ type: 'LIST_TODO', payload: response.data });
+            })
+        
+    }
+    
+}
 
 export const fetchTodo = () => async dispatch => {
     const response = await todoApi.get('/todo_items.json?page=1');
-    debugger
     dispatch({ type: 'LIST_TODO', payload: response.data });
 };
 

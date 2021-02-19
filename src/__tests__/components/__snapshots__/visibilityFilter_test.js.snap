@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VisibilityFilters should render with given state from Redux store 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+  style={
+    Object {
+      "margin": "auto",
+      "padding": 20,
+      "textAlign": "center",
+      "width": 500,
+    }
+  }
+>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "padding": 20,
+      }
+    }
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      All
+    </span>
+  </button>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-text"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "padding": 20,
+      }
+    }
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Active
+    </span>
+  </button>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-text"
+    disabled={false}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "padding": 20,
+      }
+    }
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Deleted
+    </span>
+  </button>
+</div>
+`;

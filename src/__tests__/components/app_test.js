@@ -10,20 +10,25 @@ import { mount } from 'enzyme';
 import {configure} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import {Provider} from "react-redux";
-import {createStore, applyMiddleware} from 'redux';
-import reducers from '../../reducers';
 import thunk from 'redux-thunk';
+import TODO_ITEMS from '../../fixtures/todos';
+import configureStore from 'redux-mock-store';
 
 configure({adapter: new Adapter()});
-const createStoreWithMiddleware = createStore(reducers, applyMiddleware(thunk));
+const mockStore = configureStore([thunk]);
 
 // Use 'describe' to group together similar tests
 describe('App', () => {
-
+    let store
     let component;
 
     beforeEach(() => {
-        component = mount(<Provider store={createStoreWithMiddleware}><App /></Provider>);
+        store = mockStore({
+            todos: TODO_ITEMS,
+            filterTags: [],
+            visibilityFilter: 'All'
+        })
+        component = mount(<Provider store={store}><App /></Provider>);
     });
 
     // Use 'test' or 'it' (both possible) to test a single attribute of a target

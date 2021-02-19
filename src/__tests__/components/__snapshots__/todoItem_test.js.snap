@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoItem should render with given state from Redux store 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+  style={
+    Object {
+      "margin": "auto",
+      "padding": 20,
+      "textAlign": "center",
+      "width": 500,
+    }
+  }
+>
+  <ul
+    className="MuiList-root MuiList-padding"
+  >
+    <div
+      className="MuiListItemText-root"
+      style={
+        Object {
+          "textDecoration": "",
+        }
+      }
+    >
+      <span
+        className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+      >
+        Test
+      </span>
+    </div>
+    <div
+      className="MuiBox-root MuiBox-root-1"
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+        disabled={false}
+        id="deleteButton"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          Active
+        </span>
+      </button>
+      <div
+        className="MuiInputBase-root MuiInput-root MuiInput-underline"
+        onClick={[Function]}
+      >
+        <div
+          aria-haspopup="listbox"
+          aria-labelledby="statustag"
+          className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
+          id="statustag"
+          onBlur={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          Start
+        </div>
+        <input
+          aria-hidden={true}
+          className="MuiSelect-nativeInput"
+          onAnimationStart={[Function]}
+          onChange={[Function]}
+          tabIndex={-1}
+          value="start"
+        />
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root MuiSelect-icon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M7 10l5 5 5-5z"
+          />
+        </svg>
+      </div>
+      <button
+        className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label"
+        >
+          <svg
+            aria-hidden={true}
+            className="MuiSvgIcon-root"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34a.9959.9959 0 00-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+  </ul>
+  <hr
+    className="MuiDivider-root"
+  />
+</div>
+`;
